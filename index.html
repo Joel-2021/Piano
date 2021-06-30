@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>piano</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="piano">
+      <div id="key_pressed"></div>
+      <div class="key">
+        <div class="key white" data-note="C" data-key="65"></div>
+        <div class="key black" data-note="C#" data-key="87"></div>
+        <div class="key white" data-note="D" data-key="83"></div>
+        <div class="key black" data-note="D#" data-key="69"></div>
+        <div class="key white" data-note="E" data-key="68"></div>
+        <div class="key white" data-note="F" data-key="70"></div>
+        <div class="key black" data-note="F#" data-key="84"></div>
+        <div class="key white" data-note="G" data-key="71"></div>
+        <div class="key black" data-note="G#" data-key="89"></div>
+        <div class="key white" data-note="A" data-key="72"></div>
+        <div class="key black" data-note="A#" data-key="85"></div>
+        <div class="key white" data-note="B" data-key="74"></div>
+      </div>
+    </div>
+    <audio id="C" data-key="65" src="./notes/C.wav"></audio>
+    <audio id="C#" data-key="87" src="./notes/Db.wav"></audio>
+    <audio id="D" data-key="83" src="./notes/D.wav"></audio>
+    <audio id="D#" data-key="69" src="./notes/Eb.wav"></audio>
+    <audio id="E" data-key="68" src="./notes/E.wav"></audio>
+    <audio id="F" data-key="70" src="./notes/F.wav"></audio>
+    <audio id="F#" data-key="84" src="./notes/Gb.wav"></audio>
+    <audio id="G" data-key="71" src="./notes/G.wav"></audio>
+    <audio id="G#" data-key="89" src="./notes/Ab.wav"></audio>
+    <audio id="A" data-key="72" src="./notes/A.wav"></audio>
+    <audio id="A#" data-key="85" src="./notes/Bb.wav"></audio>
+    <audio id="B" data-key="74" src="./notes/B.wav"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
